@@ -9,9 +9,7 @@
     "prettier/@typescript-eslint",
     "prettier/react"
   ],
-  "plugins": [
-    "@typescript-eslint"
-  ],
+  "plugins": ["@typescript-eslint", "react"],
   "env": {
     "node": true,
     "es6": true
@@ -22,5 +20,9 @@
       "jsx": true
     }
   },
-  "rules": {}
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "react/prop-types": "off"
+  }
 }

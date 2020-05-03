@@ -1,5 +1,4 @@
-import { Login } from "../components/Login";
-import React from 'react'
+import React from "react";
 
-const Home: React.FC = () => <Login />;
+const Home: React.FC = () => <p>Hello World</p>;
 export default Home;
